@@ -5,23 +5,21 @@
 import React, { useState } from "react";
 // import reactDom from "react-dom";
 
-import Three from './Three'
-
-function TodosComponent() {
+function Todo() {
   const [currentTodo, setCurrentTodo] = useState("");
   const [todos, setTodos] = useState([
-    // {
-    //   todo: "bake a cake",
-    //   isCompleted: true
-    // },
-    // {
-    //   todo: "go for a walk",
-    //   isCompleted: false
-    // },
-    // {
-    //   todo: "contribute a web development tutorial on Enlight",
-    //   isCompleted: false
-    // }
+    {
+      todo: "bake a cake",
+      isCompleted: true
+    },
+    {
+      todo: "go for a walk",
+      isCompleted: false
+    },
+    {
+      todo: "contribute a web development tutorial on Enlight",
+      isCompleted: false
+    }
   ]);
 
   function createNewTodo(currentTodo) {
@@ -46,8 +44,7 @@ function TodosComponent() {
   }
 
   return (
-    <div>
-      <Three />
+    <div className = "todo-container">
       <input
         className="todo-input"
         value={currentTodo}
@@ -73,8 +70,8 @@ function TodosComponent() {
           </div>
         </div>
       ))}
-      {todos.length > 0 && `${todos.length} items`}
+      {/* {todos.length > 0 && `${todos.length} items`} */}
     </div>
   );
 }
-export default TodosComponent;
+export default Todo;

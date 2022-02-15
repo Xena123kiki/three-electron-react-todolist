@@ -1,31 +1,65 @@
 .App {
+  /* max-width: 50em; */
+  /* margin: 0 auto; */
+  /* padding: 32px; */
   text-align: center;
+  height: 100%;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
+.todo-container{
+  margin: 0 auto;
+  padding: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.todo-input {
+  font-size: 24px;
+  border: none;
+  width: 100%;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.todo {
+  /* margin: 32px 0px; */
   display: flex;
-  flex-direction: column;
+  margin-top: 10px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 16px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #09d3ac;
-}
-
-.about {
-  margin-top: 10%;
+.checkbox {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin-right: 10px;
+  cursor: pointer;
+  background: #d9d9d9;
+  font-size: 10px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  border: 1px solid #fff;
+  transition: all 300ms ease;
+}
+
+.checkbox:hover {
+  opacity: 0.8;
+}
+
+.delete {
+  margin-left: auto;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.delete:hover {
+  opacity: 0.8;
 }

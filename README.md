@@ -7,6 +7,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Build Electron App With React - Video Tutorial
 [Video Tutorial at YouTube](https://www.youtube.com/playlist?list=PLASldBPN_pkCXhDdahLI2RIRy1tmGTeit)
 
+## A Three JS Feature Implemented
+
 ## Usage
 1. Clone this repository.
 ```
@@ -41,8 +43,7 @@ Add a 256 x 256 .png or .ico image in your public folder. It should be either `i
 Feel free to submit an issue or pull request anytime. If a change is made to the codebase with your PR, you'll be listed as a contributor.
 
 ### Contributors
-@willjw3 | https://github.com/willjw3
-
+@Xena123kiki | https://github.com/Xena123kiki
 
 
 

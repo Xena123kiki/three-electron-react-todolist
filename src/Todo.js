@@ -5,19 +5,21 @@
 import React, { useState } from "react";
 // import reactDom from "react-dom";
 
+import './Todo.css'
+
 function Todo() {
   const [currentTodo, setCurrentTodo] = useState("");
   const [todos, setTodos] = useState([
     {
-      todo: "bake a cake",
+      todo: "아침에 일어나기",
       isCompleted: true
     },
     {
-      todo: "go for a walk",
+      todo: "아침 점심 저녁 꼭 챙겨 먹기",
       isCompleted: false
     },
     {
-      todo: "contribute a web development tutorial on Enlight",
+      todo: "살면서 해보지 않은 재밌는 일 하기",
       isCompleted: false
     }
   ]);
@@ -57,7 +59,7 @@ function Todo() {
             setCurrentTodo("");
           }
         }}
-        placeholder="What needs to get done?"
+        placeholder="할 일을 입력해주세요"
       />
       {todos.map((todo, index) => (
         <div key={todo} className="todo">

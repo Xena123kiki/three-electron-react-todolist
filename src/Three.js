@@ -32,8 +32,8 @@ function Three() {
 
     scene.add( cube );
 
-    // const light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 )
-    // scene.add(light)
+    const light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 1 )
+    scene.add(light)
 
     camera.position.z = 5;
 

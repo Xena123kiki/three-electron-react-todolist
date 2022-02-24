@@ -41,6 +41,3 @@ Add a 256 x 256 .png or .ico image in your public folder. It should be either `i
 
 ### Contributors
 @Xena123kiki | https://github.com/Xena123kiki
-
-
-
